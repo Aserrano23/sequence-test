@@ -4,7 +4,7 @@ a {
 }
 
 .container {
-  width: 60%;
+  width: 70%;
 }
 
 .info_box_container {
@@ -17,4 +17,10 @@ a {
   font-size: 12pt;
   overflow-x: scroll;
   overflow-y: hidden;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
 }

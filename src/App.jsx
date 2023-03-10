@@ -210,7 +210,11 @@ function App() {
     <div className="App container">
       <h1 className="mt-5">
         <a href="https://sequence.xyz" target="_blank" rel="noreferrer">
-          <img src="/assets/images/logo-sequence.svg" width={250} alt="" />
+          <img
+            src="https://i.ibb.co/k0pMN6h/logo-sequence.png"
+            width={250}
+            alt=""
+          />
         </a>
       </h1>
       <h3>Sequence Test app | Polygon</h3>
@@ -220,24 +224,24 @@ function App() {
           <h4 className="info_box_container">{address}</h4>
         </div>
       </div>
-      <div className="row mt-2">
+      <div className="row">
         <div className="col">
           <h4 className="info_box_container">{status}</h4>
         </div>
       </div>
 
-      <div className="row mt-3">
-        <div className="col">
+      <div className="row">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button text="Connect Wallet" onclick={connectWallet} />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="Disconnect Wallet"
             onclick={disconnect}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="Open Wallet"
             onclick={openWallet}
@@ -246,38 +250,38 @@ function App() {
         </div>
       </div>
 
-      <div className="row mt-3">
-        <div className="col">
+      <div className="row">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="Open Wallet with settings"
             onclick={openWalletWithOptions}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="Close Wallet"
             onclick={closeWallet}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button text="isConnected?" onclick={isConnected} />
         </div>
       </div>
 
-      <div className="row mt-3">
-        <div className="col">
+      <div className="row">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button text="isOpened?" onclick={isOpened} disabled={!connected} />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="Get Chain id"
             onclick={getDefaultChainID}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="getAddress()"
             onclick={getAddress}
@@ -286,22 +290,22 @@ function App() {
         </div>
       </div>
 
-      <div className="row mt-3">
-        <div className="col">
+      <div className="row">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="getBalance()"
             onclick={getBalance}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="getNetworks()"
             onclick={getNetworks}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="sign message"
             onclick={signMessage}
@@ -310,18 +314,18 @@ function App() {
         </div>
       </div>
 
-      <div className="row mt-3">
-        <div className="col">
+      <div className="row">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="sendMatic()"
             onclick={sendMATIC}
             disabled={!connected}
           />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button text="sendDAI()" onclick={sendDAI} disabled={!connected} />
         </div>
-        <div className="col">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
           <Button
             text="get token symbol"
             onclick={getTokenSymbol}

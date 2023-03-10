@@ -1,7 +1,7 @@
 {
   "name": "sequence-test",
   "version": "0.1.0",
-  "homepage": "https://aserrano23.github.io",
+  "homepage": "https://Aserrano23.github.io/sequence-test",
   "private": true,
   "dependencies": {
     "@0xsequence/design-system": "^0.1.107",
