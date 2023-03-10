@@ -14,14 +14,14 @@ if you want to test the project in your local machine, do the next steps:
 
 1-Clone repository
 
->git clone 
+>`git clone https://github.com/aserrano23/sequence-test.git`
 
 2-Run npm install
 
->npm install
+>`npm install`
 
 3-Start project
 
->npm run start
+>`npm run start`
 
 and open http://localhost:3000 in your browser!
