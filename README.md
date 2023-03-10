@@ -14,7 +14,7 @@ if you want to test the project in your local machine, do the next steps:
 
 1-Clone repository
 
->`git clone https://github.com/aserrano23/sequence-test.git`
+>`git clone git@github.com:Aserrano23/sequence-test.git`
 
 2-Run npm install
 
